@@ -1,0 +1,34 @@
+{
+  "name": "ui_elements",
+  "version": "0.0.0",
+  "description": "Frontend UI elements for practicing UI development",
+  "main": " ",
+  "scripts": {
+    "build": "babel-node build.js",
+    "serve": "babel-node build.js --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whastings/ui_elements.git"
+  },
+  "keywords": [],
+  "author": "Will Hastings",
+  "license": " ",
+  "bugs": {
+    "url": "https://github.com/whastings/ui_elements/issues"
+  },
+  "homepage": "https://github.com/whastings/ui_elements#readme",
+  "devDependencies": {
+    "babel": "^5.2.13",
+    "gulp": "^3.8.11",
+    "gulp-flatten": "0.0.4",
+    "metalsmith": "^1.7.0",
+    "metalsmith-copy": "^0.2.1",
+    "metalsmith-ignore": "^0.1.2",
+    "metalsmith-sass": "^0.7.0",
+    "metalsmith-serve": "0.0.3",
+    "metalsmith-templates": "^0.7.0",
+    "metalsmith-watch": "^0.2.0"
+  }
+}
